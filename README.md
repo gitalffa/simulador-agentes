@@ -2,6 +2,11 @@
 
 Proyecto de aprendizaje de JavaScript vanilla que simula un debate entre agentes de inteligencia artificial con personalidades distintas, usando la API de Claude (Anthropic).
 
+## 📸 Screenshots
+
+![Interfaz principal](assets/images/simulador1.png)
+![Debate en acción](assets/images/simulador2.png)
+
 ## ✨ ¿Qué hace?
 
 1. El usuario escribe un tema a debatir
