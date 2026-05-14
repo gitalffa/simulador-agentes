@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Agentes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">
+        Simulador de Agentes <span class="accent">IA</span>
+      </h1>
+      <p class="header__subtitle">
+        Ingresa un tema y observa como debaten los agentes
+      </p>
+    </header>
+
+    <main class="main">
+      <section class="panel-input">
+        <textarea
+          id="tema"
+          class="panel-input__textarea"
+          placeholder="Escriba el tema a debatir ... ej: ¿Es mejor vivir en ciudad o en el campo?"
+          rows="4"
+        ></textarea>
+        <button id="btn-simular" class="panel-input__btn">
+          Iniciar simulación
+        </button>
+      </section>
+      <section id="agentes" class="agentes"></section>
+      <section id="debate" class="debate"></section>
+      <section id="resumen" class="resumen"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
